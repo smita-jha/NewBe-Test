@@ -7,7 +7,8 @@ guess=1
 ## Start loop of game here
 while true; do
 n1=$(( ( RANDOM % 100 ) +1 ))
-echo -n "I'm think of a number between 1 and 100. Guess: "
+echo "How many files are there in the current directory?"
+echo  "Guess a number between 1 and 100. Guess:"
 
 while read n2; do
     if [[ $n2 -eq $n1 ]]; then
